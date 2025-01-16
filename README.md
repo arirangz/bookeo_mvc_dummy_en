@@ -11,11 +11,12 @@
 * Make sure the site works locally.
 
 ## Context
-A contractor began setting up the Bookeo site using an MVC structure. This site aims to allow visitors to view files about books, comics, and manga, and to comment on and rate these files.
+Another développeur started this Bookeo site using an MVC structure. This site aims to allow visitors to view files about books, comics, and manga, and to comment on and rate these files.
 https://vimeo.com/1015300423?share=copy#
 
 ## Existing Features
-Navigation and login are already completed. For the pages in progress, the HTML code has already been added in the various pages within the `templates` folder.
+Navigation and login are already completed. For the pages in progress, the HTML code has already been added in the various pages within the `templates` folder. The developer left a lot of @todo in the code.
+You will need to finish the @todo and also modify the templates to display data.
 
 ## Remaining Tasks
 * Finish displaying a book
@@ -27,8 +28,6 @@ Navigation and login are already completed. For the pages in progress, the HTML 
 * Finish the ability to rate a book
 * Manage a CRUD in the front end (accessible only to admins) to handle authors
 * Manage a new "genre" table (e.g., adventure, crime, horror, etc.). It should be possible to associate multiple genres with a single book.
-
-## Bonus
 * Ability to filter books by category
 * Ability to perform a search on a book title (single keyword)
 * Ability to perform a search on a book title using multiple keywords
