@@ -1,11 +1,11 @@
 <?php require_once _ROOTPATH_ . '/templates/header.php'; ?>
 
 <h1>Book list</h1>
-
+<!-- @todo we should use the template book/_partial_book.php -->
 <div class="row text-center mb-3">
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/uploads/books/3-zai-zai-zai-zai.jpg" class="card-img-top" alt="Zaï Zaï Zaï Zaï">
+            <img src="uploads/books/3-zai-zai-zai-zai.jpg" class="card-img-top" alt="Zaï Zaï Zaï Zaï">
             <div class="card-body">
                 <h5 class="card-title">Zaï Zaï Zaï Zaï</h5>
                 <p class="card-text">Au passage à la caisse d'un supermarché, un auteur de bande dessinée réalise qu’il n’a pas s...</p>
@@ -15,7 +15,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/uploads/books/2-histoires-courtes.jpg" class="card-img-top" alt="Histoires courtes">
+            <img src="uploads/books/2-histoires-courtes.jpg" class="card-img-top" alt="Histoires courtes">
             <div class="card-body">
                 <h5 class="card-title">Histoires courtes</h5>
                 <p class="card-text">Ce volume unique rassemble les nouvelles créées par le maître Junji Ito pour l'éditeur japonais ...</p>
@@ -25,7 +25,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/uploads/books/1-1984.jpg" class="card-img-top" alt="1984">
+            <img src="uploads/books/1-1984.jpg" class="card-img-top" alt="1984">
             <div class="card-body">
                 <h5 class="card-title">1984</h5>
                 <p class="card-text">L’histoire se passe à Londres en 1984, comme l'indique le titre du roman. Le monde, depuis les gr...</p>
@@ -35,7 +35,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/assets/images/default-book.jpg" class="card-img-top" alt="Test 79">
+            <img src="assets/images/default-book.jpg" class="card-img-top" alt="Test 79">
             <div class="card-body">
                 <h5 class="card-title">Test 79</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
@@ -45,7 +45,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/assets/images/default-book.jpg" class="card-img-top" alt="Test 78">
+            <img src="assets/images/default-book.jpg" class="card-img-top" alt="Test 78">
             <div class="card-body">
                 <h5 class="card-title">Test 78</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
@@ -55,7 +55,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/assets/images/default-book.jpg" class="card-img-top" alt="Test 77">
+            <img src="assets/images/default-book.jpg" class="card-img-top" alt="Test 77">
             <div class="card-body">
                 <h5 class="card-title">Test 77</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
@@ -65,7 +65,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/assets/images/default-book.jpg" class="card-img-top" alt="Test 76">
+            <img src="assets/images/default-book.jpg" class="card-img-top" alt="Test 76">
             <div class="card-body">
                 <h5 class="card-title">Test 76</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
@@ -75,7 +75,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/assets/images/default-book.jpg" class="card-img-top" alt="Test 75">
+            <img src="assets/images/default-book.jpg" class="card-img-top" alt="Test 75">
             <div class="card-body">
                 <h5 class="card-title">Test 75</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>
@@ -85,7 +85,7 @@
     </div>
     <div class="col-md-4 my-2 d-flex">
         <div class="card">
-            <img src="/assets/images/default-book.jpg" class="card-img-top" alt="Test 74">
+            <img src="assets/images/default-book.jpg" class="card-img-top" alt="Test 74">
             <div class="card-body">
                 <h5 class="card-title">Test 74</h5>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore ...</p>

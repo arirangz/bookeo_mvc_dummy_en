@@ -24,13 +24,13 @@ use App\Tools\NavigationTools;
 
     <div class="container">
         <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-                <img width="90" src="/assets/images/logo-bookeo.jpg" alt="Logo Bookeo">
+            <a href="index.php" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <img width="90" src="assets/images/logo-bookeo.jpg" alt="Logo Bookeo">
             </a>
 
             <ul class="nav nav-pills">
                 <li class="nav-item">
-                    <a href="/" class="nav-link px-2 <?= NavigationTools::addActiveClass('page', 'home') ?>">Home</a>
+                    <a href="index.php" class="nav-link px-2 <?= NavigationTools::addActiveClass('page', 'home') ?>">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="index.php?controller=book&action=list" class="nav-link px-2 <?= NavigationTools::addActiveClass('book', 'list') ?>">Books list</a>
@@ -42,10 +42,10 @@ use App\Tools\NavigationTools;
 
             <div class="col-md-3 text-end">
                 <?php if (User::isLogged()) { ?>
-                    <a href="/index.php?controller=auth&action=logout" class="btn btn-primary">Logout</a>
+                    <a href="index.php?controller=auth&action=logout" class="btn btn-primary">Logout</a>
                 <?php } else { ?>
-                    <a href="/index.php?controller=auth&action=login" class="btn btn-outline-primary me-2 <?= NavigationTools::addActiveClass('auth', 'login') ?>">Log in</a>
-                    <a href="/index.php?controller=user&action=register" class="btn btn-outline-primary me-2 <?= NavigationTools::addActiveClass('user', 'register') ?>">Register</a>
+                    <a href="index.php?controller=auth&action=login" class="btn btn-outline-primary me-2 <?= NavigationTools::addActiveClass('auth', 'login') ?>">Log in</a>
+                    <a href="index.php?controller=user&action=register" class="btn btn-outline-primary me-2 <?= NavigationTools::addActiveClass('user', 'register') ?>">Register</a>
                 <?php } ?>
             </div>
         </header>

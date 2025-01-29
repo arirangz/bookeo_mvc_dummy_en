@@ -2,7 +2,7 @@
     <div class="card-body p-4">
 
         <div class="row mb-3">
-            <h2>Note des utilisateurs</h2>
+            <h2>Average rate</h2>
             <div class="row align-items-center justify-content-center">
                 <div class="rate col-6">
                     <input disabled="disabled" type="radio" id="avgstar5" name="avgrate" value="5">
@@ -20,7 +20,7 @@
         </div>
 
         <div class="row mb-3">
-            <h3>Noter ce livre</h3>
+            <h3>Rate this book</h3>
 
             <form method="POST">
                 <div class="mb-3">
