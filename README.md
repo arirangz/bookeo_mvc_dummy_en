@@ -1,5 +1,9 @@
 # Bookeo MVC Project
 
+## Context
+Another developer started this Bookeo site using an MVC structure. This site aims to allow visitors to view files about books, comics, and manga, and to comment on and rate these files.
+https://vimeo.com/1015300423?share=copy#
+
 ## Installation
 * Fork this repository, then clone in it in your folder
 * Next, you must create a MySQL database and import the `bookeo.sql` file.
@@ -8,10 +12,6 @@
     * `admin@test.com`, password: `test` (do not use in a production environment :) )
 * Duplicate the `.env.example` file to `.env` and edit it to include your database information.
 * Make sure the site works locally.
-
-## Context
-Another developer started this Bookeo site using an MVC structure. This site aims to allow visitors to view files about books, comics, and manga, and to comment on and rate these files.
-https://vimeo.com/1015300423?share=copy#
 
 ## Existing Features
 Navigation and login are already completed. For the pages in progress, the HTML code has already been added in the various pages within the `templates` folder. The developer left a lot of @todo in the code.
