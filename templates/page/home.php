@@ -23,7 +23,7 @@
             <div class="card-body">
                 <h5 class="card-title">Zaï Zaï Zaï Zaï</h5>
                 <p class="card-text">Au passage à la caisse d'un supermarché, un auteur de bande dessinée réalise qu’il n’a pas s...</p>
-                <a href="index.php?controller=book&amp;action=show&amp;id=82" class="btn btn-primary">Lire la suite</a>
+                <a href="index.php?controller=book&amp;action=show&amp;id=82" class="btn btn-primary">Read more</a>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
             <div class="card-body">
                 <h5 class="card-title">Histoires courtes</h5>
                 <p class="card-text">Ce volume unique rassemble les nouvelles créées par le maître Junji Ito pour l'éditeur japonais ...</p>
-                <a href="index.php?controller=book&amp;action=show&amp;id=81" class="btn btn-primary">Lire la suite</a>
+                <a href="index.php?controller=book&amp;action=show&amp;id=81" class="btn btn-primary">Read more</a>
             </div>
         </div>
     </div>
@@ -43,7 +43,7 @@
             <div class="card-body">
                 <h5 class="card-title">1984</h5>
                 <p class="card-text">L’histoire se passe à Londres en 1984, comme l'indique le titre du roman. Le monde, depuis les gr...</p>
-                <a href="index.php?controller=book&amp;action=show&amp;id=80" class="btn btn-primary">Lire la suite</a>
+                <a href="index.php?controller=book&amp;action=show&amp;id=80" class="btn btn-primary">Read more</a>
             </div>
         </div>
     </div>
