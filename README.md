@@ -1,7 +1,6 @@
 # Bookeo MVC Project
 
 ## Installation
-* First, you must create a local domain in your hosts file, then modify your Apache vhost and restart your server.
 * Fork this repository, then clone in it in your folder
 * Next, you must create a MySQL database and import the `bookeo.sql` file.
 * The database already contains a data set including two users (an administrator and a regular user):
