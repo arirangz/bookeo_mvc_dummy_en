@@ -13,7 +13,7 @@
     </div>
 </div>
 
-<h2>Découvez les dernières oeuvres</h2>
+<h2>Latest books</h2>
 
 <!-- @todo we should use the template book/_partial_book.php -->
 <div class="row text-center">
