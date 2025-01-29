@@ -29,5 +29,3 @@ You will need to finish the @todo and also modify the templates to display data.
 * Manage a new "genre" table (e.g., adventure, crime, horror, etc.). It should be possible to associate multiple genres with a single book.
 * Ability to filter books by category
 * Ability to perform a search on a book title (single keyword)
-* Ability to perform a search on a book title using multiple keywords
-    * This can be done in a single query (requires modifying the index of the `title` field)
