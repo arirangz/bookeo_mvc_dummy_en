@@ -20,11 +20,11 @@ class UserController extends Controller
                         // Call delete()
                         break;
                     default:
-                        throw new \Exception("Cette action n'existe pas : " . $_GET['action']);
+                        throw new \Exception("This action does not exist : " . $_GET['action']);
                         break;
                 }
             } else {
-                throw new \Exception("Aucune action détectée");
+                throw new \Exception("Action missing");
             }
         } catch (\Exception $e) {
             $this->render('errors/default', [

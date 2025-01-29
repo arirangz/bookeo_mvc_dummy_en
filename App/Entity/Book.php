@@ -125,14 +125,11 @@ class Book extends Entity
         }
     }
 
-    /*
-        Devrait être déplacé dans une classe BookValidator
-    */
     public function validate():array
     {
         $errors = [];
         if (empty($this->getTitle())) {
-            $errors['title'] = 'Le champ titre ne doit pas être vide';
+            $errors['title'] = 'Title is required';
         }
         return $errors;
     }

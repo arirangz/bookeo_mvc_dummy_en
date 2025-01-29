@@ -37,7 +37,7 @@ class BookController extends Controller
                         $this->list();
                         break;
                     default:
-                        throw new \Exception("Cette action n'existe pas : " . $_GET['action']);
+                        throw new \Exception("This action does not exist : " . $_GET['action']);
                         break;
                 }
             } else {

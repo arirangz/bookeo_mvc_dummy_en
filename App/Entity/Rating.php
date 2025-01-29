@@ -91,21 +91,17 @@ class Rating extends Entity
     }
 
     
-
-    /*
-        Pourrait être déplacé dans une classe RateValidator
-    */
     public function validate(): array
     {
         $errors = [];
         if (empty($this->getRate())) {
-            $errors['rate'] = 'Cliquer sur une étoile.';
+            $errors['rate'] = 'You must click on a start';
         }
         if (empty($this->getBookId())) {
-            $errors['book_id'] = 'Le champ book_id ne doit pas être vide';
+            $errors['book_id'] = 'book_id is required';
         }
         if (empty($this->getUserId())) {
-            $errors['user_id'] = 'Le champ user_id ne doit pas être vide';
+            $errors['user_id'] = 'user_id is required';
         }
         return $errors;
     }

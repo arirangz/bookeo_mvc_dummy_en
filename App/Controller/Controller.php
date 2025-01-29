@@ -29,11 +29,10 @@ class Controller
                         $controller->route();
                         break;
                     default:
-                        throw new \Exception("Le controleur n'existe pas");
+                        throw new \Exception("Controller does not exist");
                         break;
                 }
             } else {
-                //Chargement la page d'accueil si pas de controleur dans l'url
                 $controller = new PageController();
                 $controller->home();
             }
@@ -52,7 +51,6 @@ class Controller
             if (!file_exists($filePath)) {
                 throw new \Exception("Fichier non trouvé : " . $filePath);
             } else {
-                // Extrait chaque ligne du tableau et crée des variables pour chacune
                 extract($params);
                 require_once $filePath;
             }

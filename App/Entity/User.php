@@ -92,18 +92,18 @@ class User extends Entity
     {
         $errors = [];
         if (empty($this->getFirstName())) {
-            $errors['first_name'] = 'Le champ prénom ne doit pas être vide';
+            $errors['first_name'] = 'First name is required';
         }
         if (empty($this->getLastName())) {
-            $errors['last_name'] = 'Le champ nom ne doit pas être vide';
+            $errors['last_name'] = 'Last name is required';
         }
         if (empty($this->getEmail())) {
-            $errors['email'] = 'Le champ email ne doit pas être vide';
+            $errors['email'] = 'Email is required';
         } else if (!filter_var($this->getEmail(), FILTER_VALIDATE_EMAIL)) {
-            $errors['email'] = 'L\'email n\'est pas valide';
+            $errors['email'] = 'Email is not valid';
         }
         if (empty($this->getPassword())) {
-            $errors['password'] = 'Le champ mot de passe ne doit pas être vide';
+            $errors['password'] = 'Password is required';
         }
         return $errors;
     }

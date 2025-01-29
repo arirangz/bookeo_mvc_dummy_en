@@ -18,11 +18,11 @@ class AuthController extends Controller
                         $this->logout();
                         break;
                     default:
-                        throw new \Exception("Cette action n'existe pas : " . $_GET['action']);
+                        throw new \Exception("This action does not exist : " . $_GET['action']);
                         break;
                 }
             } else {
-                throw new \Exception("Aucune action détectée");
+                throw new \Exception("Action missing");
             }
         } catch (\Exception $e) {
             $this->render('errors/default', [
@@ -53,7 +53,7 @@ class AuthController extends Controller
                 ];
                 header('location: index.php');
             } else {
-                $errors[] = 'Email ou mot de passe incorrect';
+                $errors[] = 'Incorrect email or password';
             }
         }
 
