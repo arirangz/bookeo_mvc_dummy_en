@@ -18,9 +18,9 @@ Navigation and login are already completed. For the pages in progress, the HTML 
 You will need to finish the @todo and also modify the templates to display data.
 
 ## Remaining Tasks
+* Finish displaying a book (detail)
 * Finish displaying the list of books
 * Finish displaying the last three books on the home page
-* Finish displaying a book (detail)
 * Finish adding and editing a book
 * Finish creating a user account
 * Finish adding comments
