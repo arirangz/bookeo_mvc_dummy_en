@@ -18,13 +18,14 @@ Navigation and login are already completed. For the pages in progress, the HTML 
 You will need to finish the @todo and also modify the templates to display data.
 
 ## Remaining Tasks
-* Finish displaying a book
-* Finish adding and editing a book
-* Finish displaying the list of books (and manage pagination)
+* Finish displaying the list of books
 * Finish displaying the last three books on the home page
+* Finish displaying a book (detail)
+* Finish adding and editing a book
 * Finish creating a user account
 * Finish adding comments
 * Finish the ability to rate a book
+* Add a pagination system on the book list
 * Manage a CRUD in the front end (accessible only to admins) to handle authors
 * Manage a new "genre" table (e.g., adventure, crime, horror, etc.). It should be possible to associate multiple genres with a single book.
 * Ability to filter books by category
