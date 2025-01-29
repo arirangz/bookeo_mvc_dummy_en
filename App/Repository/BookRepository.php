@@ -40,7 +40,7 @@ class BookRepository extends Repository
 
         $booksArray = [];
 
-        //@todo do a loop on the booksArray to hydrate and store all objects using Book::createAndHydrate
+        //@todo do a loop on the books to hydrate and store all objects using Book::createAndHydrate
     
         
 
