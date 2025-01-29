@@ -92,7 +92,7 @@ class BookRepository extends Repository
             }
             return $book;
         } else {
-            throw new \Exception("Erreur lors de l'enregistrement");
+            throw new \Exception("Error while saving");
         }
     }
 

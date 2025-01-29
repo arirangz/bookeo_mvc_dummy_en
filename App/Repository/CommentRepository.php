@@ -26,7 +26,7 @@ class CommentRepository extends Repository
                     $commentObject->setUser($user);
                     $commentsArray[] = $commentObject;
                 } else {
-                    throw new \Exception("Aucun utilisateur sur le commentaire");
+                    throw new \Exception("No user attached to this comment");
                     
                 }
             }
