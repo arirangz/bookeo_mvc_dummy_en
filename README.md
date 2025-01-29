@@ -10,7 +10,7 @@
 * Make sure the site works locally.
 
 ## Context
-Another développeur started this Bookeo site using an MVC structure. This site aims to allow visitors to view files about books, comics, and manga, and to comment on and rate these files.
+Another developer started this Bookeo site using an MVC structure. This site aims to allow visitors to view files about books, comics, and manga, and to comment on and rate these files.
 https://vimeo.com/1015300423?share=copy#
 
 ## Existing Features
